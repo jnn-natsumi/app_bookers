@@ -1,0 +1,119 @@
+// Place all the styles related to the booklists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+    hight:355px;
+    width:840px;
+	background-color:#fff;
+	color:black;
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size:13px;
+	line-height:18px;
+	margin:33px;
+}
+
+h1{
+	font-weight:bold;
+	margin-top:17px;
+	margin-bottom:17px;
+}
+
+h2{
+	margin:16px 0px ;
+	font-color:#333333;
+}
+
+.error_explanation {
+	width:450px;
+	border:2px solid red;
+	padding:7px;
+	psdding-bottom:0;
+	margin-bottom:20px;
+	background-color:#f0f0f0;
+}
+
+.error_explanation h2{
+	text-align:left;
+	font-weight:bold;
+	padding:5px 5px 5px 15px;
+	font-size:12px;
+	margin:-7px;
+	margin-bottom:0;
+	background-color:#c00;
+	color:#fff;
+}
+
+.error_explanation ul, li{
+	font-size:12px;
+	list-style:square;
+}
+
+p{
+	background-color:#fff;
+	color:black;
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size:13px;
+	line-height:18px;
+	margin:33px;
+}
+
+strong{
+	font-weight:bold;
+	margin:0 auto;
+}
+
+table{
+    hight:20%;
+    width:70%;
+	border-collapse:separate;
+	border-spacing:2px;
+}
+
+tr{
+	display:table-row;
+	vertical-align:inherit;
+	border-color:inherit;
+}
+
+th{
+	display:table-cell;
+	vertical-align:inherit;
+	font-weight:bold;
+	text-align: center;
+	padding-bottom:1px 1px 5px;
+}
+
+tbody{
+	display:table-row-group;
+	vertical-align:middle;
+	border-color:inherit;
+}
+
+td{
+	padding-bottom:7px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:13px;
+}
+
+.field{
+	margin-bottom:10px;
+}
+
+.button{
+	user-select:none;
+	white-space:pre;
+	align-items:flex-start;
+	text-align:center;
+	cursor:default;
+	box-sizing:border-box;
+	border-width:1px;
+	border-image:initial;
+	margin:0px;
+}
+
+.flash{
+	color:green;
+}
+
